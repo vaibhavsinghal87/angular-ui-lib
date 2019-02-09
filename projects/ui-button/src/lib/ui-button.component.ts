@@ -1,5 +1,4 @@
-import { Component, OnInit, Input, Output } from '@angular/core';
-import { EventEmitter } from 'events';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'btn-ui-button',
@@ -11,7 +10,7 @@ import { EventEmitter } from 'events';
 export class UiButtonComponent implements OnInit {
 
   @Input() title: String = '';
-  @Output() btnClick: EventEmitter = new EventEmitter();
+  @Output() btnClick: EventEmitter<any> = new EventEmitter();
 
   constructor() { }
 
