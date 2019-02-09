@@ -6,7 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 `npm i ng-ui-button`
 
 ## API
-`import { UiButtonModule } from 'ng-ui-button'`
+`import { UiButtonModule } from 'ng-ui-button'`  
 `selector: btn-ui-button`
 
 ### @Input
