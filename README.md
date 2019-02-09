@@ -19,7 +19,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ### @Output
 | Output        | Type           | Required  |  Description |
 | ------------- |:-------------:| ---------:|  ------------:
-| title        | Event | optional | emits button click event
+| btnClick        | Event | optional | emits button click event
 
 
 
